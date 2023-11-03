@@ -4,11 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef9f03-743a-4c6e-85d8-be9ec0fdc434" name="Changes" comment="Mid Project" />
+    <list default="true" id="24ef9f03-743a-4c6e-85d8-be9ec0fdc434" name="Changes" comment="Mid2 Project">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animals.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Diagramm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Base/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/AddAnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/DetailAnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyCamelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyCatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyDogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyDonkeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyHamsterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/Services/StudyHorseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/AnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/IAnimalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/PackAnimalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Base/PetsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Camel/Camel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Camel/CamelAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Donkey/Donkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Donkey/DonkeyAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Horse/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/PackAnimals/Horse/HorseAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Cat/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Cat/CatAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Dog/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Dog/DogAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Hamster/Hamster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Pets/Hamster/HamsterAnimalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/AnimalFabric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/DB/AnimalDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/DB/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/Shared/DateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/Shared/ICreatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/Shared/IEducable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastructure/Shared/IExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/AddAnimalPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/MainPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyCamelPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyCatPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyDogPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyDonkeyPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyHamsterPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presenters/StudyHorsePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Base/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Base/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/ConsoleUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/AddAnimalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyCamelMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyCatMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyDogMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyDonkeyMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyHamsterMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyHorseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Menus/StudyMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +99,16 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698573047863</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mid2 Project">
+      <option name="closed" value="true" />
+      <created>1698593025999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698593025999</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Mid2 Project">
+      <option name="closed" value="true" />
+      <created>1698593037417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698593037417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +170,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start project" />
     <MESSAGE value="Mid Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mid Project" />
+    <MESSAGE value="Mid2 Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mid2 Project" />
   </component>
 </project>
